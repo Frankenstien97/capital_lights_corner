@@ -1,0 +1,224 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "itServices": "IT & Networking",
+        "constructionServices": "Construction",
+        "about": "About Us",
+        "partners": "Partners",
+        "contact": "Contact Us"
+    },
+    "hero": {
+        "tagline": "Your Trusted Partner",
+        "title": "Building Tomorrow's Infrastructure Today",
+        "subtitle": "Leading provider of IT, Networking, and Construction services in Saudi Arabia",
+        "cta": "Explore Our Services",
+        "ctaSecondary": "Contact Us"
+    },
+    "home": {
+        "introTitle": "Capital Lights Corner Company",
+        "introSubtitle": "CLCC",
+        "introText": "Capital Light Corner Company (CLCC) is a high-class contracting firm committed to cost-effective solutions, timely project delivery, and the highest standards of quality and service. With over six years of industry experience, CLCC has built a strong reputation for technical expertise, excellence in execution, and exceptional customer satisfaction.",
+        "introText2": "A continuous focus on innovation, safety, and reliability positions CLCC as a trusted partner in the construction and ICT sectors.",
+        "servicesTitle": "Our Services",
+        "servicesSubtitle": "Comprehensive IT and Construction Solutions",
+        "itServicesTitle": "IT & Networking Services",
+        "itServicesDesc": "Comprehensive technology solutions including infrastructure, networking, cybersecurity, cloud computing, and telecommunications.",
+        "constructionTitle": "Construction Services",
+        "constructionDesc": "Full-scale construction and civil works including building projects, steel structures, and infrastructure development.",
+        "learnMore": "Learn More",
+        "partnersTitle": "Our Partners",
+        "partnersSubtitle": "Trusted by Leading Organizations"
+    },
+    "about": {
+        "title": "About Us",
+        "subtitle": "Your Trusted Partner Since 2018",
+        "introTitle": "Brief Introduction",
+        "introText": "Capital Light Corner Company (CLCC) is a high-class contracting firm committed to cost-effective solutions, timely project delivery, and the highest standards of quality and service.",
+        "introText2": "With over six years of industry experience, CLCC has built a strong reputation for technical expertise, excellence in execution, and exceptional customer satisfaction.",
+        "introText3": "A continuous focus on innovation, safety, and reliability positions CLCC as a trusted partner in the construction and ICT sectors.",
+        "missionTitle": "Our Mission",
+        "missionText": "At Capital Light Corner Company (CLCC), we are committed to providing exceptional services while consistently delivering projects on time. We invest continuously in training and development programs across all levels of our organization to strengthen skills, improve efficiency, and uphold industry best practices. Our mission is to enrich the lives of our employees, exceed customer expectations, and ensure long-term business sustainability through excellence, innovation, and integrity in everything we do.",
+        "teamTitle": "Our Professional Team",
+        "teamText": "At Capital Light Corner Company (CLCC), our strength lies in our people. Our team is composed of highly skilled professionals with extensive experience across construction, ICT, and project management. Each member of our team is committed to excellence, innovation, and safety, ensuring that every project we undertake meets the highest standards of quality & efficiency.",
+        "teamText2": "Through continuous training and professional development, we equip our staff with the latest knowledge and skills to deliver outstanding results for our clients. From engineers and project managers to technical specialists and support staff, every individual at CLCC plays a critical role in achieving our mission of exceeding client expectations and driving long-term business success.",
+        "workforceTitle": "Workforce & Equipment",
+        "workforceText": "CLCC's strength lies in its skilled workforce and modern equipment. Our team of experienced engineers, technicians, and project managers are trained to deliver projects efficiently, safely, and to the highest standards.",
+        "workforceText2": "We utilize state-of-the-art machinery and tools, regularly maintained and upgraded, to ensure timely project delivery and exceptional quality. By combining expertise with advanced equipment, CLCC consistently meets and exceeds client expectations.",
+        "orgChartTitle": "Organizational Chart"
+    },
+    "itServices": {
+        "title": "IT & Networking Services",
+        "subtitle": "Comprehensive Technology Solutions",
+        "heroText": "Delivering cutting-edge IT infrastructure and networking solutions for businesses across Saudi Arabia",
+        "infrastructure": {
+            "title": "Infrastructure Solutions",
+            "desc": "Hardware, Networking, & Integrated Infrastructure Services."
+        },
+        "backup": {
+            "title": "Backup & Disaster Recovery",
+            "desc": "Reliable Data Protection & Business Continuity Services."
+        },
+        "security": {
+            "title": "Network & Physical Security",
+            "desc": "Comprehensive Network and Physical Security Solutions, Including Advanced CCTV Surveillance Systems."
+        },
+        "datacenter": {
+            "title": "Data Center Solutions",
+            "desc": "Secure, High-Performance Data Center Infrastructure."
+        },
+        "telecom": {
+            "title": "Telecommunications Solutions",
+            "desc": "FTTH, FOC, GSM & OSP Services."
+        },
+        "cyber": {
+            "title": "Cyber Security",
+            "desc": "At CLCC, we recognize the vital importance of cybersecurity in today's digital landscape. We proactively design and implement strategies to protect sensitive information from emerging cyber threats."
+        },
+        "ai": {
+            "title": "Artificial Intelligence",
+            "desc": "CLCC is advancing into the dynamic field of Artificial Intelligence, harnessing its vast potential to drive innovation, transform industries, and enhance human capabilities."
+        },
+        "cloud": {
+            "title": "Cloud Computing",
+            "desc": "CLCC harnesses the power of cloud computing, utilizing its scalability and flexibility to accelerate digital transformation and achieve operational excellence."
+        },
+        "ecommerce": {
+            "title": "E-Commerce Solutions",
+            "desc": "CLCC is actively contributing to the evolving e-commerce landscape, leveraging innovative digital technologies to shape the future of online retail and enhance customer experiences."
+        },
+        "futureWork": {
+            "title": "The Future of Work",
+            "desc": "CLCC is exploring the evolving future of work shaped by digital innovation, embracing agility, collaboration, and adaptability as key drivers of success in the digital era."
+        },
+        "digitalCitizens": {
+            "title": "Empowering Digital Citizens",
+            "desc": "CLCC is exploring the evolving future of work shaped by digital innovation, embracing agility, collaboration, and adaptability as key drivers of success in the digital era."
+        },
+        "projectsTitle": "Featured IT Projects",
+        "tahakomAseer": {
+            "title": "Tahakom - Aseer Region",
+            "desc": "Successful completion of 35 sites across the Asir/Abha region, including both urban and outskirts locations, covering civil works and system installations."
+        },
+        "tahakomMadina": {
+            "title": "Tahakom - Madina Region",
+            "desc": "Successfully completed 45 sites throughout the Madinah Region and its outskirts, covering civil works and system installations."
+        },
+        "gdot": {
+            "title": "GDOT City CCTV System",
+            "desc": "The CLCC team implemented a predefined algorithm to design and configure the city-wide CCTV system, strategically prioritizing high-traffic routes to ensure optimal monitoring, coverage, and operational efficiency."
+        },
+        "sfrs": {
+            "title": "SFRS Highway Sites",
+            "desc": "Advanced technological solutions were utilized to address the operational and safety challenges inherent in high-speed highway environments."
+        },
+        "nightVision": {
+            "title": "Night Vision System",
+            "desc": "The night-vision system, featuring advanced infrared (IR) technology, was configured to accurately detect and identify traffic violations across all vehicles."
+        },
+        "redLight": {
+            "title": "Red Light System",
+            "desc": "The CLCC team has also successfully executed Red Light System installations across multiple regions."
+        },
+        "stcFtth": {
+            "title": "STC FTTH OSP/ISP",
+            "desc": "CLCC has extensive expertise in installing and maintaining fiber optic cable networks."
+        },
+        "aeiWifi": {
+            "title": "AEI WiFi Access Points",
+            "desc": "CLCC has implemented a comprehensive Wi-Fi infrastructure to deliver reliable, high-speed internet connectivity."
+        },
+        "aeiAccess": {
+            "title": "AEI Access Control System",
+            "desc": "CLCC has delivered a comprehensive, fully integrated access control solution for its clients."
+        },
+        "aeiTelephony": {
+            "title": "AEI IP Telephony System",
+            "desc": "CLCC has successfully delivered IP Telephony solutions integrated with load balancing, ensuring efficient performance, high reliability, and seamless communication."
+        }
+    },
+    "construction": {
+        "title": "Construction Services",
+        "subtitle": "Building Excellence",
+        "heroText": "Comprehensive construction and civil works services with a commitment to quality, safety, and timely delivery",
+        "projectsTitle": "Featured Projects",
+        "arcCompound": {
+            "title": "ARC Compound",
+            "desc": "A comprehensive renovation and reconstruction project."
+        },
+        "horseGuard": {
+            "title": "Horse Guard Building",
+            "desc": "Newly constructed building with modern facilities."
+        },
+        "steamSauna": {
+            "title": "Steam & Sauna Facility",
+            "desc": "ARC newly constructed steam & sauna bath facility."
+        },
+        "jacuzzi": {
+            "title": "Jacuzzi Facility",
+            "desc": "ARC newly constructed jacuzzi facility."
+        },
+        "pumpRoom": {
+            "title": "Pump Room with Firefighting",
+            "desc": "ARC pump room with firefighting equipment."
+        },
+        "privateVilla": {
+            "title": "Private Villa - Diplomatic Quarter",
+            "desc": "Private villa project in the Diplomatic Quarter, Riyadh."
+        },
+        "royalLibrary": {
+            "title": "Royal Family Private Library",
+            "desc": "Exclusive private library construction project."
+        },
+        "steelParking": {
+            "title": "Steel Structure Car Parking",
+            "desc": "Steel structure car parking shade installation."
+        },
+        "industrialFencing": {
+            "title": "Industrial Perimeter Fencing",
+            "desc": "Industrial perimeter fencing installation."
+        },
+        "powerGrid": {
+            "title": "Power Grid Gantry Solutions",
+            "desc": "Durable and safe gantry systems designed to support high-voltage networks and ensure reliable power distribution."
+        },
+        "substation": {
+            "title": "Substation Gantry Tower",
+            "desc": "Durable and safe gantry systems designed to support high-voltage networks and ensure reliable power distribution."
+        }
+    },
+    "partners": {
+        "title": "Our Partners",
+        "subtitle": "Trusted Collaborations"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in Touch",
+        "introText": "We're here to help. Reach out to us for any inquiries about our IT and Construction services.",
+        "addressTitle": "Address",
+        "address": "Beesha St., Second Industrial City, Riyadh, K.S.A.",
+        "phoneTitle": "Phone",
+        "phone": "+966 53 699 0113",
+        "emailTitle": "Email",
+        "email": "imuhammad@capitallightscorner.com",
+        "websiteTitle": "Website",
+        "website": "www.capitallightscorner.com",
+        "contactPerson": "Israr Muhammad",
+        "contactRole": "Manager of Communications & Information Technology",
+        "formTitle": "Send us a Message",
+        "nameLabel": "Full Name",
+        "emailLabel": "Email Address",
+        "subjectLabel": "Subject",
+        "messageLabel": "Message",
+        "submitBtn": "Send Message",
+        "thankYou": "Thank You"
+    },
+    "footer": {
+        "description": "Capital Lights Corner Company - Your trusted partner for IT, Networking, and Construction services in Saudi Arabia.",
+        "quickLinks": "Quick Links",
+        "services": "Services",
+        "contactInfo": "Contact Info",
+        "rights": "All Rights Reserved",
+        "company": "Capital Lights Corner Company"
+    }
+}
