@@ -57,12 +57,8 @@ function Partners() {
                         </p>
                     </div>
 
-                    <div className="partners-page__grid">
-                        {partners.map((partner, index) => (
-                            <div key={index} className="partner-card">
-                                <span className="partner-card__placeholder">{partner}</span>
-                            </div>
-                        ))}
+                    <div className="partners-page__image-container">
+                        <img src="/src/assets/partners/partners_collage.png" alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
                     </div>
 
                     {/* Hardware Networking Services */}

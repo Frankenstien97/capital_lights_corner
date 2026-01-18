@@ -73,11 +73,9 @@ function Home() {
                         <p>{t('home.partnersSubtitle')}</p>
                     </div>
                     <div className="home-partners__grid">
-                        {['Partner 1', 'Partner 2', 'Partner 3', 'Partner 4', 'Partner 5', 'Partner 6'].map((partner, index) => (
-                            <div key={index} className="home-partners__item">
-                                <span style={{ color: 'var(--gray)', fontSize: '0.9rem' }}>{partner}</span>
-                            </div>
-                        ))}
+                        <div className="home-partners__image-container">
+                            <img src="/src/assets/partners/partners_collage.png" alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
+                        </div>
                     </div>
                     <div className="home-partners__cta">
                         <Link to="/partners" className="btn btn--secondary">

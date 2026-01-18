@@ -12,6 +12,9 @@ function ContactUs() {
         message: ''
     });
 
+    const [status, setStatus] = useState({ type: '', message: '' });
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -19,11 +22,34 @@ function ContactUs() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Form submission logic would go here
-        alert('Thank you for your message!');
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setIsSubmitting(true);
+        setStatus({ type: '', message: '' });
+
+        try {
+            const response = await fetch('/send_email.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                setStatus({ type: 'success', message: t('contact.successMessage') || 'Message sent successfully!' });
+                setFormData({ name: '', email: '', subject: '', message: '' });
+            } else {
+                throw new Error(result.error || 'Failed to send message');
+            }
+        } catch (error) {
+            setStatus({ type: 'error', message: t('contact.errorMessage') || 'Failed to send message. Please try again later.' });
+            console.error('Error submitting form:', error);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -166,9 +192,15 @@ function ContactUs() {
                                 />
                             </div>
 
-                            <button type="submit" className="contact-form__submit">
-                                {t('contact.submitBtn')}
+                            <button type="submit" className="contact-form__submit" disabled={isSubmitting}>
+                                {isSubmitting ? (t('contact.sending') || 'Sending...') : t('contact.submitBtn')}
                             </button>
+
+                            {status.message && (
+                                <div className={`contact-form__status contact-form__status--${status.type}`} style={{ marginTop: '1rem', padding: '1rem', borderRadius: '4px', backgroundColor: status.type === 'error' ? '#fee2e2' : '#dcfce7', color: status.type === 'error' ? '#dc2626' : '#16a34a' }}>
+                                    {status.message}
+                                </div>
+                            )}
                         </form>
                     </div>
                 </div>
