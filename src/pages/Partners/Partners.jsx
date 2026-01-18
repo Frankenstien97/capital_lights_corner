@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero/Hero';
 import './Partners.css';
-
+import partnersCollage from '../../assets/partners/partners_collage.png';
 function Partners() {
     const { t } = useTranslation();
 
@@ -58,7 +58,8 @@ function Partners() {
                     </div>
 
                     <div className="partners-page__image-container">
-                        <img src="/src/assets/partners/partners_collage.png" alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
+
+                        <img src={partnersCollage} alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
                     </div>
 
                     {/* Hardware Networking Services */}

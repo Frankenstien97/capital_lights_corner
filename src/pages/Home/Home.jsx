@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero/Hero';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import './Home.css';
-
+import partnersCollage from '../../assets/partners/partners_collage.png';
 function Home() {
     const { t } = useTranslation();
 
@@ -74,7 +74,8 @@ function Home() {
                     </div>
                     <div className="home-partners__grid">
                         <div className="home-partners__image-container">
-                            <img src="/src/assets/partners/partners_collage.png" alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
+
+                            <img src={partnersCollage} alt="Our Partners: Huawei, Alcatel-Lucent, Ubiquiti, TP-Link, and others" />
                         </div>
                     </div>
                     <div className="home-partners__cta">
